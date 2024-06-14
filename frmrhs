@@ -1,0 +1,72 @@
+/* Modern font */
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Form container */
+.hs-form {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Input fields */
+.hs-input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/* Submit button */
+.hs-button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.hs-button:hover {
+  background-color: #0056b3;
+}
+
+/* Field labels */
+.hs-form .hs-form-field label {
+  font-weight: bold;
+  margin-bottom: 6px;
+  display: block;
+  font-size: 14px;
+}
+
+/* Form title */
+.hs-form h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Placeholder styling */
+.hs-input::placeholder {
+  color: #aaa;
+  font-style: italic;
+}
+
+/* Error message styling */
+.hs-error-msg {
+  color: #ff0000;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.hs-form-required {
+  color: #ff0000;
+}
